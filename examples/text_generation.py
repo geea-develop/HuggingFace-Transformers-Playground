@@ -1,3 +1,6 @@
+# Text generation
+# Attempts to auto-complete a text 
+
 from transformers import pipeline
 
 generator = pipeline("text-generation", model="distilgpt2")

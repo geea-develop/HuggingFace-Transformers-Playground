@@ -1,3 +1,5 @@
+# Semantic Analysis
+# Attempts to detect the semantic (positive or negative) direction of the text
 from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis")
